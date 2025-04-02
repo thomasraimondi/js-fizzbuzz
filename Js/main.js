@@ -2,7 +2,6 @@
 const multipleOfThree = "Fizz";
 const multipleOfFive = "Buzz";
 const multipleOfThreeAndFive = "FizzBuzz";
-const myWindows = document.open();
 let outputMessage;
 
 // Execute Script
