@@ -7,11 +7,11 @@ let outputMessage;
 // Execute Script
 for (let i = 1; i <= 100; i++) {
   if (i % 3 == 0 && i % 5 == 0) {
-    outputMessage = `${i} : "${multipleOfThreeAndFive}" (Multiplo di 3 e di 5)`;
+    outputMessage = `"${multipleOfThreeAndFive}" : ${i} (Multiplo di 3 e di 5)`;
   } else if (i % 3 == 0) {
-    outputMessage = `${i} : "${multipleOfThree}" (Multiplo di 3)`;
+    outputMessage = `"${multipleOfThree}" : ${i} (Multiplo di 3)`;
   } else if (i % 5 == 0) {
-    outputMessage = `${i} : "${multipleOfFive}" (Multiplo di 5)`;
+    outputMessage = `"${multipleOfFive}" : ${i} (Multiplo di 5)`;
   } else {
     outputMessage = i;
   }
