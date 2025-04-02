@@ -1,15 +1,17 @@
 const multipleOfThree = "Fizz";
 const multipleOfFive = "Buzz";
 const multipleOfThreeAndFive = "FizzBuzz";
+let outputMessage;
 
 for (let i = 1; i <= 100; i++) {
   if (i % 3 == 0 && i % 5 == 0) {
-    console.log(multipleOfThreeAndFive);
+    outputMessage = multipleOfThreeAndFive;
   } else if (i % 3 == 0) {
-    console.log(multipleOfThree);
+    outputMessage = multipleOfThree;
   } else if (i % 5 == 0) {
-    console.log(multipleOfFive);
+    outputMessage = multipleOfFive;
   } else {
-    console.log(i);
+    outputMessage = i;
   }
+  console.log(outputMessage);
 }
